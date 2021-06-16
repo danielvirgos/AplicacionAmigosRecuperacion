@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145671378602",
+    "project_id": "aplicacionamigosrecupera-57005",
+    "storage_bucket": "aplicacionamigosrecupera-57005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145671378602:android:565e26093e54be93eae2d3",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionamigosrecuperacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145671378602-a7db053f1ifbn5vk02bdgiubd9o99467.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFeoDc_7Tg5KQDV3KiDN1QOn5W_yTVNz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145671378602-a7db053f1ifbn5vk02bdgiubd9o99467.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

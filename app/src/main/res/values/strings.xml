@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AplicacionAmigosRecuperacion</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addnuevoamigo">Añadir amigos desde tus contactos</string>
+    <string name="listarAmigos">Ver mi lista de amigos</string>
+    <string name="editaramigo">Editar amigo existente</string>
+    <string name="borraramigo">Borrar un amigo de mi lista</string>
+    <string name="contactos">ver contactos</string>
+    <string name="titulo_permiso">permiso</string>
+    <string name="mensaje_permiso">mensaje</string>
+    <string name="aceptar">aceptar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="listarconta">Listar Amigos</string>
+    <string name="can">Cancelar</string>
+    <string name="acep">confirmar</string>
+    <string name="deleconfir">Estas seguro de eliminar el amigo seleccionado</string>
+
+</resources>

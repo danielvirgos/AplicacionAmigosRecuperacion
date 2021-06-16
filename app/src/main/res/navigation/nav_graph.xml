@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.aplicacionamigosrecuperacion.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_deleteFragment"
+            app:destination="@id/deleteFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_listarFragment"
+            app:destination="@id/listarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.aplicacionamigosrecuperacion.view.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deleteFragment"
+        android:name="com.example.aplicacionamigosrecuperacion.view.DeleteFragment"
+        android:label="fragment_delete"
+        tools:layout="@layout/fragment_delete" >
+        <action
+            android:id="@+id/action_deleteFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.aplicacionamigosrecuperacion.view.UpdateFragment"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" >
+        <action
+            android:id="@+id/action_updateFragment_to_updateConfirmacionFragment"
+            app:destination="@id/updateConfirmacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateConfirmacionFragment"
+        android:name="com.example.aplicacionamigosrecuperacion.view.UpdateConfirmacionFragment"
+        android:label="fragment_update_confirmacion"
+        tools:layout="@layout/fragment_update_confirmacion" >
+        <action
+            android:id="@+id/action_updateConfirmacionFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listarFragment"
+        android:name="com.example.aplicacionamigosrecuperacion.view.ListarFragment"
+        android:label="fragment_listar"
+        tools:layout="@layout/fragment_listar" />
+</navigation>
